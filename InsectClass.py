@@ -1,5 +1,6 @@
 import random
 
+
 class Insect:
     # The _ _init_ _ method initializes the
 
@@ -11,8 +12,8 @@ class Insect:
     # calculate length of flight for each insect
     # randomly assign a value of 1 - 10 miles.
 
-    def lenflight (self):
-        self.flight == random.randint(1, 10)
-    
-    def get_flight (self):
+    def lenflight(self):
+        self.flight = random.randint(1, 10)
+
+    def get_flight(self):
         return self.flight
