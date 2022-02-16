@@ -1,11 +1,9 @@
-import Student as s
+import StudentClass as s
 
 
-def main():
+student = s.Student("111222333", "Jane Doe", "11/05/2000", "Jr")
 
-    student1 = ("111222333", "Jane Doe", 11 / 5 / 2000, "Jr")
-
-    print("Student ID: ", student1.get_ID())
-    print("Student Name: ", student1.get_Name())
-    print("Student Age: ")
-    print("Student Registration Date: ", student1.register_date())
+print("Student ID: ", student.get_ID())
+print("Student Name: ", student.get_Name())
+print("Student Age: ", student.age())
+print("Student Registration Date: ", student.register())
